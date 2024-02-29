@@ -1,8 +1,7 @@
 import { useContext, useEffect } from "react";
-import { ThemeContext } from "..";
+import { ThemeContext } from "../../layout/index";
 
 function ModeToggler() {
-    // you can change default theme here
     if (
         localStorage.getItem("theme") !== "" &&
         localStorage.getItem("theme") !== "dark"
