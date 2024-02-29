@@ -10,18 +10,12 @@
     },
     "component_names": [
       "Transaction",
-      "ListTab",
-      "UserTab",
       "TeamChat",
       "Wallet",
       "Sidebar",
       "SidebarV2",
       "Header",
-      "Search",
-      "Filter",
       "SelectFilter",
-      "FilterFull",
-      "Pagination",
       "PaymentFilter"
     ],
     "component_information": {
@@ -104,41 +98,7 @@
       "Transaction": {
         "count": 1,
         "location": "below the header component",
-        "description": "a table container",
-        "children": {
-          "ListTab": {
-            "count": 1,
-            "location": "top center inside Transaction component just below the HeaderOne ",
-            "description": "it shows all transaction data",
-            "children": {
-              "Search": {
-                "count": 1,
-                "location": "top left side of the ListTab component",
-                "description": "an input section"
-              },
-              "Filter": {
-                "count": 1,
-                "location": "top right side of the ListTab component",
-                "description": "to filter data based on specified selection"
-              },
-              "FilterFull": {
-                "count": 4,
-                "location": "just below the search component",
-                "description": "to filter data based on specified selection"
-              },
-              "UserTab": {
-                "count": 1,
-                "location": "just below the FilterFull component section",
-                "description": "it shows all the data"
-              },
-              "Pagination": {
-                "count": 1,
-                "location": "just below the UserTab component section",
-                "description": "it shows the total number of pages"
-              }
-            }
-          }
-        }
+        "description": "a table container"
       },
       "Wallet": {
         "count": 1,
@@ -159,5 +119,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed ListTab component from Transaction component"]
   }
