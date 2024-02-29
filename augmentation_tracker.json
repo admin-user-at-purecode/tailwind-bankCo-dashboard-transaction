@@ -151,13 +151,8 @@
             "description": "a feature that allows changing card options"
           }
         }
-      },
-      "TeamChat": {
-        "count": 1,
-        "location": "Below the wallet, just to the right side of the ListTab component.",
-        "description": "it shows all chats"
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed TeamChat component"]
   }
