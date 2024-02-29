@@ -2,7 +2,6 @@ import Pagination from "../Pagination";
 import Filter from "../forms/Filter";
 import FilterFull from "../forms/FilterFull";
 import Search from "../forms/Search";
-import UserTab from "./UserTab";
 
 function ListTab({ pageSize }) {
     return (
@@ -13,7 +12,6 @@ function ListTab({ pageSize }) {
                     <Filter options={["January", "February", "March"]} />
                 </div>
                 <FilterFull />
-                <UserTab pageSize={pageSize} />
                 <Pagination />
             </div>
         </div>

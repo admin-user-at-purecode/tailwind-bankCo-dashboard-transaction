@@ -126,11 +126,6 @@
                 "location": "just below the search component",
                 "description": "to filter data based on specified selection"
               },
-              "UserTab": {
-                "count": 1,
-                "location": "just below the FilterFull component section",
-                "description": "it shows all the data"
-              },
               "Pagination": {
                 "count": 1,
                 "location": "just below the UserTab component section",
@@ -159,5 +154,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed UserTab component ListTab"]
   }
