@@ -21,8 +21,7 @@
       "Filter",
       "SelectFilter",
       "FilterFull",
-      "Pagination",
-      "PaymentFilter"
+      "Pagination"
     ],
     "component_information": {
       "HeaderOne": {
@@ -143,14 +142,7 @@
       "Wallet": {
         "count": 1,
         "location": " top right side of ListTab component below headerOne",
-        "description": "its show card payment options",
-        "children": {
-          "PaymentFilter": {
-            "count": 1,
-            "location": "on top inside wallet component",
-            "description": "a feature that allows changing card options"
-          }
-        }
+        "description": "its show card payment options"
       },
       "TeamChat": {
         "count": 1,
@@ -159,5 +151,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed PaymentFilter component from Wallet "]
   }

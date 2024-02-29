@@ -3,7 +3,6 @@ import card1 from "../../assets/images/payments/card-1.svg";
 import card2 from "../../assets/images/payments/card-2.svg";
 import card3 from "../../assets/images/payments/card-3.svg";
 import Slider from "../slider";
-import PaymentFilter from "../forms/PaymentFilter";
 import PaymentSelect from "../forms/PaymentSelect";
 
 function GreenBtn({ text, action, className }) {
@@ -59,7 +58,6 @@ function Wallet() {
                 <h3 className="mb-4 text-lg font-bold text-bgray-900 dark:text-white">
                     Quick Transfer
                 </h3>
-                <PaymentFilter />
                 <div className="flex h-[98px] w-full flex-col justify-between rounded-lg border border-bgray-200 p-4 focus-within:border-success-300 dark:border-darkblack-400">
                     <p className="text-sm font-medium text-bgray-600 dark:text-bgray-50">
                         Enter amount
