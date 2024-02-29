@@ -9,13 +9,15 @@
       "shadow": "2px 2px 2px 2px #888888"
     },
     "component_names": [
-      "HistoryTable",
-      "History",
+      "Transaction",
+      "ListTab",
+      "UserTab",
       "TeamChat",
       "Wallet",
       "Sidebar",
       "SidebarV2",
       "Header",
+      "Search",
       "Filter",
       "SelectFilter",
       "FilterFull",
