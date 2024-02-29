@@ -20,7 +20,6 @@
       "Search",
       "Filter",
       "SelectFilter",
-      "FilterFull",
       "Pagination",
       "PaymentFilter"
     ],
@@ -121,11 +120,6 @@
                 "location": "top right side of the ListTab component",
                 "description": "to filter data based on specified selection"
               },
-              "FilterFull": {
-                "count": 4,
-                "location": "just below the search component",
-                "description": "to filter data based on specified selection"
-              },
               "UserTab": {
                 "count": 1,
                 "location": "just below the FilterFull component section",
@@ -159,5 +153,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed FilterFull component from ListTab"]
   }
