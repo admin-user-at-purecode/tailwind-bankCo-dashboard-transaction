@@ -1,8 +1,4 @@
 import member from "../../assets/images/avatar/members-3.png";
-import card1 from "../../assets/images/payments/card-1.svg";
-import card2 from "../../assets/images/payments/card-2.svg";
-import card3 from "../../assets/images/payments/card-3.svg";
-import Slider from "../slider";
 import PaymentFilter from "../forms/PaymentFilter";
 import PaymentSelect from "../forms/PaymentSelect";
 
@@ -32,27 +28,6 @@ function Wallet() {
                 </div>
 
                 <div className="flex justify-center">
-                    <div className="card-slider relative w-[280px] md:w-[340px]">
-                        <Slider
-                            slidesPerView={1}
-                            loop={true}
-                            effect={"fade"}
-                            autoplay={{
-                                delay: 2500,
-                                disableOnInteraction: false,
-                            }}
-                        >
-                            <div className="w-full">
-                                <img src={card1} alt="card" />
-                            </div>
-                            <div className="w-full">
-                                <img src={card2} alt="card" />
-                            </div>
-                            <div className="w-full">
-                                <img src={card3} alt="card" />
-                            </div>
-                        </Slider>
-                    </div>
                 </div>
             </div>
             <div className="w-full">

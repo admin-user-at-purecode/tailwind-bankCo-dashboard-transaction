@@ -22,7 +22,8 @@
       "SelectFilter",
       "FilterFull",
       "Pagination",
-      "PaymentFilter"
+      "PaymentFilter",
+      "Slider"
     ],
     "component_information": {
       "HeaderOne": {
@@ -149,6 +150,11 @@
             "count": 1,
             "location": "on top inside wallet component",
             "description": "a feature that allows changing card options"
+          },
+          "Slider": {
+            "count": 1,
+            "location": "on top inside wallet component",
+            "description": "it shows different card themes"
           }
         }
       },
@@ -159,5 +165,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed Slider component from wallet"]
   }
