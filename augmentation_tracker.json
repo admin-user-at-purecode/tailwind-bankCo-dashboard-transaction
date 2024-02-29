@@ -17,8 +17,6 @@
       "Sidebar",
       "SidebarV2",
       "Header",
-      "Search",
-      "Filter",
       "SelectFilter",
       "FilterFull",
       "Pagination",
@@ -111,16 +109,6 @@
             "location": "top center inside Transaction component just below the HeaderOne ",
             "description": "it shows all transaction data",
             "children": {
-              "Search": {
-                "count": 1,
-                "location": "top left side of the ListTab component",
-                "description": "an input section"
-              },
-              "Filter": {
-                "count": 1,
-                "location": "top right side of the ListTab component",
-                "description": "to filter data based on specified selection"
-              },
               "FilterFull": {
                 "count": 4,
                 "location": "just below the search component",
@@ -159,5 +147,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed Search and Filter component from ListTab"]
   }
