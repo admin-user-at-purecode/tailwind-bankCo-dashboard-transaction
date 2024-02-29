@@ -103,12 +103,12 @@
       },
       "Transaction": {
         "count": 1,
-        "location": "below the header component",
+        "location": "top right side below the header component",
         "description": "a table container",
         "children": {
           "ListTab": {
             "count": 1,
-            "location": "top center inside Transaction component just below the HeaderOne ",
+            "location": "top right side  of Wallet component just below the HeaderOne ",
             "description": "it shows all transaction data",
             "children": {
               "Search": {
@@ -142,7 +142,7 @@
       },
       "Wallet": {
         "count": 1,
-        "location": " top right side of ListTab component below headerOne",
+        "location": " top left side of ListTab component below headerOne",
         "description": "its show card payment options",
         "children": {
           "PaymentFilter": {
@@ -154,10 +154,10 @@
       },
       "TeamChat": {
         "count": 1,
-        "location": "Below the wallet, just to the right side of the ListTab component.",
+        "location": "Below the wallet, just to the left side of the ListTab component.",
         "description": "it shows all chats"
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Swapped the positions of ListTab with Wallet and TeamChat"]
   }
