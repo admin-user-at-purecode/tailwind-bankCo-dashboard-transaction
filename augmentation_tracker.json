@@ -142,7 +142,7 @@
       },
       "Wallet": {
         "count": 1,
-        "location": " top right side of ListTab component below headerOne",
+        "location": " top right side of ListTab component below headerOne and one is below the ListTab",
         "description": "its show card payment options",
         "children": {
           "PaymentFilter": {
@@ -158,6 +158,6 @@
         "description": "it shows all chats"
       }
     },
-    "sizing_updates": [""],
+    "sizing_updates": ["Resized the wallet component"],
     "screen_and_layout_augmentations": [""]
   }
