@@ -64,10 +64,6 @@
             "count": 1,
             "location": "to the right of the ToggleBtn",
             "description": "opens the popup containing user basic information"
-          },
-          "ProfilePopup": {
-            "count": 1,
-            "description": "opens a dropdown of some navs"
           }
         },
         "children_orientation_description": "flexed"
@@ -76,13 +72,6 @@
         "count": 1,
         "location": "to the top of the page",
         "description": "visible on the mobile screen",
-        "children": {
-          "ResProfilePopup": {
-            "count": 1,
-            "location": "to the right in the container",
-            "description": "collapsible list on toggled"
-          }
-        },
         "children_orientation_description": "flexed"
       },
       "Sidebar": {
@@ -159,5 +148,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed ProfilePopup functionality from headerOne and ResProfilePopup from HeaderTwo"]
   }

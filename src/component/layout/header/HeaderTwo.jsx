@@ -3,7 +3,6 @@ import logoW from "../../../assets/images/logo/logo-white.svg";
 import profile from "../../../assets/images/avatar/profile-52x52.png";
 import { useState } from "react";
 
-import ResProfilePopup from "./ResProfilePopup";
 
 function HeaderTwo({ handleSidebar }) {
     const [activePopup, handleActivePopup] = useState(false);
@@ -243,7 +242,6 @@ function HeaderTwo({ handleSidebar }) {
                     </div>
                 </div>
             </header>
-            <ResProfilePopup isActive={activePopup} />
         </div>
     );
 }
