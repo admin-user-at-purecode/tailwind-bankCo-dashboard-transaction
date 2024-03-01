@@ -159,5 +159,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
-  }
+    "screen_and_layout_augmentations": ["Removed sidebar collapsible functionality button from headerOne , HeaderTwo and Sidebar"]
+  }s
