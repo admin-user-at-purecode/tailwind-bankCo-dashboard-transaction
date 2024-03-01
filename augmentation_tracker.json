@@ -42,14 +42,10 @@
             "functionality": "toggles the global theme"
           },
           "ToggleBtn": {
-            "count": 3,
+            "count": 2,
             "location": "to the right of the ModeToggler button",
             "description": "on clicked opens popup",
             "children": {
-              "NotificationPopup": {
-                "count": 1,
-                "description": "opens on first toggle button clicked"
-              },
               "MassagePopup": {
                 "count": 1,
                 "description": "opens on second toggle button clicked"
@@ -159,5 +155,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Removed NotificationPopup functionality from headerOne"]
   }

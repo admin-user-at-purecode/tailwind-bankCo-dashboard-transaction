@@ -2,7 +2,6 @@ import { useState } from "react";
 import SearchBar from "../../forms/SearchBar";
 import Author from "./Author";
 import MassagePopup from "./MassagePopup";
-import NotificationPopup from "./NotificationPopup";
 import ProfilePopup from "./ProfilePopup";
 import StorePopUp from "./StorePopUp";
 import ToggleBtn from "./ToggleBtn";
@@ -84,10 +83,6 @@ function HeaderOne({ handleSidebar }) {
                                     </svg>
                                 }
                             >
-                                <NotificationPopup
-                                    active={popup?.notification}
-                                    handlePopup={handlePopup}
-                                />
                             </ToggleBtn>
                             <ToggleBtn
                                 active={true}
