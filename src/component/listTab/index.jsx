@@ -1,4 +1,3 @@
-import Pagination from "../Pagination";
 import Filter from "../forms/Filter";
 import FilterFull from "../forms/FilterFull";
 import Search from "../forms/Search";
@@ -14,7 +13,6 @@ function ListTab({ pageSize }) {
                 </div>
                 <FilterFull />
                 <UserTab pageSize={pageSize} />
-                <Pagination />
             </div>
         </div>
     );
