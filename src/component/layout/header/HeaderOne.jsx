@@ -4,7 +4,6 @@ import Author from "./Author";
 import MassagePopup from "./MassagePopup";
 import NotificationPopup from "./NotificationPopup";
 import ProfilePopup from "./ProfilePopup";
-import StorePopUp from "./StorePopUp";
 import ToggleBtn from "./ToggleBtn";
 import ModeToggler from "./ModeToggler";
 
@@ -135,10 +134,6 @@ function HeaderOne({ handleSidebar }) {
                                     </svg>
                                 }
                             >
-                                <StorePopUp
-                                    active={popup?.store}
-                                    handlePopup={handlePopup}
-                                />
                             </ToggleBtn>
                         </div>
                         <div className="hidden h-[48px] w-[1px] bg-bgray-300 dark:bg-darkblack-400 xl:block"></div>
