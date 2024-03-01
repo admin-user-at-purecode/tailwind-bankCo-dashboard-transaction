@@ -107,8 +107,8 @@
         "description": "a table container",
         "children": {
           "ListTab": {
-            "count": 1,
-            "location": "top center inside Transaction component just below the HeaderOne ",
+            "count": 2,
+            "location": "top center inside Transaction component just below the HeaderOne  and one which is resized is below ListTab ",
             "description": "it shows all transaction data",
             "children": {
               "Search": {
@@ -158,6 +158,6 @@
         "description": "it shows all chats"
       }
     },
-    "sizing_updates": [""],
+    "sizing_updates": ["Resized ListTab component  "],
     "screen_and_layout_augmentations": [""]
   }
