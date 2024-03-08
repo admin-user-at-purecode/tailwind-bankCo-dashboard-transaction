@@ -141,8 +141,8 @@
         }
       },
       "Wallet": {
-        "count": 1,
-        "location": " top right side of ListTab component below headerOne",
+        "count": 2,
+        "location": " top right side of ListTab component below headerOne and second one is just below headerOne",
         "description": "its show card payment options",
         "children": {
           "PaymentFilter": {
@@ -154,10 +154,10 @@
       },
       "TeamChat": {
         "count": 1,
-        "location": "Below the wallet, just to the right side of the ListTab component.",
+        "location": "Below the wallet, just to the right side of the ListTab component. and second one is just below the ListTab",
         "description": "it shows all chats"
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["added TeamChat and Wallet"]
   }
