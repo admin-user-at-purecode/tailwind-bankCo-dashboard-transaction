@@ -107,8 +107,8 @@
         "description": "a table container",
         "children": {
           "ListTab": {
-            "count": 1,
-            "location": "top center inside Transaction component just below the HeaderOne ",
+            "count": 2,
+            "location": "top center inside Transaction component just below the HeaderOne and second one is just below first ListTab",
             "description": "it shows all transaction data",
             "children": {
               "Search": {
@@ -159,5 +159,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["added ListTab below the first ListTab"]
   }
