@@ -153,11 +153,11 @@
         }
       },
       "TeamChat": {
-        "count": 1,
-        "location": "Below the wallet, just to the right side of the ListTab component.",
+        "count": 2,
+        "location": "Below the wallet, just to the right side of the ListTab component and second one is below the ListTab",
         "description": "it shows all chats"
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["TeamChat added just below ListTab "]
   }
