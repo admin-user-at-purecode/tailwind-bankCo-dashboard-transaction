@@ -5,8 +5,8 @@ function Pagination() {
   return (
     <div className="pagination-content w-full">
       <div className="flex w-full items-center justify-center lg:justify-between">
+        <PaginationV2 /> 
         <PaginationV1 />
-        <PaginationV2 />
       </div>
     </div>
   );
