@@ -55,7 +55,7 @@ function HeaderOne({ handleSidebar }) {
                         Let’s check your update today
                     </p>
                 </div>
-                <SearchBar />
+             
 
                 <div className="quick-access-wrapper relative">
                     <div className="flex items-center space-x-[43px]">
@@ -152,6 +152,7 @@ function HeaderOne({ handleSidebar }) {
                         handlePopup={handlePopup}
                     />
                 </div>
+                <SearchBar />
             </div>
         </header>
     );
