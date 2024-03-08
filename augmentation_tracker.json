@@ -141,8 +141,8 @@
         }
       },
       "Wallet": {
-        "count": 1,
-        "location": " top right side of ListTab component below headerOne",
+        "count": 2,
+        "location": " top right side of ListTab component below headerOne and second one is below headerone and above ListTab",
         "description": "its show card payment options",
         "children": {
           "PaymentFilter": {
@@ -159,5 +159,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["added Wallet below the headerOne and above ListTab"]
   }
