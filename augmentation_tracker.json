@@ -113,17 +113,17 @@
             "children": {
               "Search": {
                 "count": 1,
-                "location": "top left side of the ListTab component",
+                "location": "top below the left side of the ListTab component",
                 "description": "an input section"
               },
               "Filter": {
                 "count": 1,
-                "location": "top right side of the ListTab component",
+                "location": "top below the right side of the ListTab component",
                 "description": "to filter data based on specified selection"
               },
               "FilterFull": {
                 "count": 4,
-                "location": "just below the search component",
+                "location": "At the top of the ListTab component",
                 "description": "to filter data based on specified selection"
               },
               "UserTab": {
@@ -159,5 +159,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Swapped position of Filter and Search with FilterFull"]
   }
