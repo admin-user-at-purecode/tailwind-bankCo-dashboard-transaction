@@ -147,6 +147,11 @@
         "children": {
           "PaymentFilter": {
             "count": 1,
+            "location": "below the slider inside wallet component",
+            "description": "a feature that allows changing card options"
+          },
+          "Slider": {
+            "count": 1,
             "location": "on top inside wallet component",
             "description": "a feature that allows changing card options"
           }
@@ -159,5 +164,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Swapped position of PaymentSelect and Slider "]
   }
