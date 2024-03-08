@@ -113,12 +113,12 @@
             "children": {
               "Search": {
                 "count": 1,
-                "location": "top left side of the ListTab component",
+                "location": "jut below UserTab left side of the ListTab component",
                 "description": "an input section"
               },
               "Filter": {
                 "count": 1,
-                "location": "top right side of the ListTab component",
+                "location": "jut below UserTab right side of the ListTab component",
                 "description": "to filter data based on specified selection"
               },
               "FilterFull": {
@@ -128,7 +128,7 @@
               },
               "UserTab": {
                 "count": 1,
-                "location": "just below the FilterFull component section",
+                "location": "At the top inside UserTab",
                 "description": "it shows all the data"
               },
               "Pagination": {
@@ -159,5 +159,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["UserTab is positioned to top of ListTab"]
   }
