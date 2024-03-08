@@ -59,6 +59,7 @@ function HeaderOne({ handleSidebar }) {
 
                 <div className="quick-access-wrapper relative">
                     <div className="flex items-center space-x-[43px]">
+                    <Author showProfile={handlePopup} />
                         <div className="hidden items-center space-x-5 xl:flex">
                             <div
                                 onClick={() => setPopup(false)}
@@ -143,7 +144,7 @@ function HeaderOne({ handleSidebar }) {
                         </div>
                         <div className="hidden h-[48px] w-[1px] bg-bgray-300 dark:bg-darkblack-400 xl:block"></div>
                         {/* author */}
-                        <Author showProfile={handlePopup} />
+                      
                     </div>
                     {/* notification ,message, store */}
 

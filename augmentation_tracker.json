@@ -43,7 +43,7 @@
           },
           "ToggleBtn": {
             "count": 3,
-            "location": "to the right of the ModeToggler button",
+            "location": "to the right of the Author button",
             "description": "on clicked opens popup",
             "children": {
               "NotificationPopup": {
@@ -62,7 +62,7 @@
           },
           "Author": {
             "count": 1,
-            "location": "to the right of the ToggleBtn",
+            "location": "to the left of the ToggleBtn",
             "description": "opens the popup containing user basic information"
           },
           "ProfilePopup": {
@@ -159,5 +159,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Swapped the position of Author and ToggleBtns"]
   }
