@@ -128,12 +128,12 @@
               },
               "UserTab": {
                 "count": 1,
-                "location": "just below the FilterFull component section",
+                "location": "just below the Pagination component section",
                 "description": "it shows all the data"
               },
               "Pagination": {
                 "count": 1,
-                "location": "just below the UserTab component section",
+                "location": "just below the FilterFull component section",
                 "description": "it shows the total number of pages"
               }
             }
@@ -159,5 +159,5 @@
       }
     },
     "sizing_updates": [""],
-    "screen_and_layout_augmentations": [""]
+    "screen_and_layout_augmentations": ["Swapped the position of UserTab and Pagination"]
   }
